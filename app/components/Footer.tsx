@@ -3,14 +3,14 @@ import { FiHeart } from "react-icons/fi";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-200 py-4">
+    <footer className="bg-gray-200 py-4 fixed bottom-0 left-0 w-full">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center md:flex-row md:justify-between">
           <div className="text-gray-600 text-center md:text-left">
             Staybnb {new Date().getFullYear()} © All rights reserved.
           </div>
           <div className="flex items-center mt-2 md:mt-0">
-            <span className="mr-2">Made with</span>
+            <span className="mr-2">Made with love</span>
             <div className="hidden md:block">
               <FiHeart className="text-red-500" />
             </div>
