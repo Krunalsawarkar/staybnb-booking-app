@@ -13,7 +13,7 @@ StayBnB is a vacation rental platform that allows users to search for accommodat
 
 To get started with StayBnB, follow these steps:
 
-1. Visit the StayBnB website at [www.staybnb.com](https://www.staybnb.com).
+1. Visit the StayBnB website at https://staybnb-booking-app.vercel.app/ 
 2. Create a user account by clicking on the "Sign Up" button.
 3. If you are a host, you can create a separate host account to list your properties.
 4. Explore the available search options and use the map to find your desired vacation location.
