@@ -1,11 +1,13 @@
 "use client";
 
+
 interface ContainerProps {
   children: React.ReactNode;
 }
 
 const Container: React.FC<ContainerProps> = (props) => {
   return (
+    <>
     <div
       className="
       max-w-[2520px]
@@ -18,6 +20,7 @@ const Container: React.FC<ContainerProps> = (props) => {
     >
       {props.children}
     </div>
+    </>
   );
 };
 

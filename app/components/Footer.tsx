@@ -1,9 +1,9 @@
-'use client';
+"use client";
 import { FiHeart } from "react-icons/fi";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-200 py-4 fixed bottom-0 left-0 w-full">
+    <footer className="bg-gray-200 py-4 relative bottom-0 left-0 top-[100%] w-full">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center md:flex-row md:justify-between">
           <div className="text-gray-600 text-center md:text-left">
