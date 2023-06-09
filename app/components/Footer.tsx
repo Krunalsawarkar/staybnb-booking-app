@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
             Staybnb {new Date().getFullYear()} © All rights reserved.
           </div>
           <div className="flex items-center mt-2 md:mt-0">
-            <span className="mr-2">Made with love</span>
+            <span className="mr-2">Made with</span>
             <div className="hidden md:block">
               <FiHeart className="text-red-500" />
             </div>
